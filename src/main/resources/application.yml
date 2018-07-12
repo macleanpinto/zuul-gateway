@@ -1,0 +1,10 @@
+zuul: 
+  routes:
+    producer:
+      url: http://localhost:9000
+eureka: 
+  client: 
+    serviceUrl:
+      defaultZone: https://eureka-server-registry.herokuapp.com/eureka
+server:
+   port: 8079
