@@ -5,5 +5,8 @@ eureka:
     registerWithEureka: true
     fetchRegistry: true
     
+  instance: 
+    hostname: ${APP_NAME}.herokuapp.com
+    
 server:
    port: 8079
