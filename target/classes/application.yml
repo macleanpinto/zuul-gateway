@@ -6,7 +6,7 @@ eureka:
     fetchRegistry: true
     
   instance: 
-    hostname: ${APP_NAME}.herokuapp.com
+    hostname: ${DOMAIN_NAME}
     
 server:
    port: 8079
