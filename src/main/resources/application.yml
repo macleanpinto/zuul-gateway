@@ -7,5 +7,8 @@ eureka:
   instance:
     hostname: ${DOMAIN_NAME}
     secure-port-enabled: true
+    non-secure-port-enabled: false
+    metadataMap:
+      protocol: https
 server:
   port: 8079
