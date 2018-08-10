@@ -1,12 +1,10 @@
-eureka: 
-  client: 
+eureka:
+  client:
     serviceUrl:
       defaultZone: https://eureka-server-registry.herokuapp.com/eureka
     registerWithEureka: true
     fetchRegistry: true
-    
-  instance: 
+  instance:
     hostname: ${DOMAIN_NAME}
-    
 server:
-   port: 8079
+  port: 8079
