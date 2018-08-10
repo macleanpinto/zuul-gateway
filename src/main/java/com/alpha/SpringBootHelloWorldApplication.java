@@ -2,7 +2,7 @@ package com.alpha;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 import org.springframework.context.annotation.Bean;
 
@@ -12,7 +12,7 @@ import com.alpha.filter.PreFilter;
 import com.alpha.filter.RouteFilter;
 
 @SpringBootApplication
-@EnableDiscoveryClient
+@EnableEurekaClient
 @EnableZuulProxy
 public class SpringBootHelloWorldApplication {
 
