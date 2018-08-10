@@ -6,5 +6,6 @@ eureka:
     fetchRegistry: true
   instance:
     hostname: ${DOMAIN_NAME}
+    secure-port-enabled: true
 server:
   port: 8079
