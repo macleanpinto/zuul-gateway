@@ -5,10 +5,6 @@ eureka:
     registerWithEureka: true
     fetchRegistry: true
   instance:
-    hostname: ${DOMAIN_NAME}
-    secure-port-enabled: true
-    non-secure-port-enabled: false
-    metadataMap:
-      protocol: https
+    hostname: localhost
 server:
   port: 8079
